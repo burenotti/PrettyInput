@@ -29,7 +29,7 @@ pip install prettyinput
 ```
 
 ## Using
-You have to ways to use this library:
+You have two ways to use this library:
 - Use row functions
 - Use StreamIO class
 
