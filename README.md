@@ -29,7 +29,10 @@ pip install prettyinput
 ```
 OR
 ```bash
-git clone https://github.com/burenotti/PrettyInput & cd ./PrettyInput & python setup.py sdist & pip install ./dist/prettyInput-1.0.tar.gz
+git clone https://github.com/burenotti/PrettyInput
+cd ./PrettyInput
+python setup.py sdist 
+pip install ./dist/*.tar.gz
 ```
 
 ## Using
