@@ -27,6 +27,10 @@ I wanted to make library via using which you wouldn't care about this two cases.
 ```bash
 pip install prettyinput
 ```
+OR
+```bash
+git clone https://github.com/burenotti/PrettyInput & cd ./PrettyInput & python setup.py sdist & pip install ./dist/prettyInput-1.0.tar.gz
+```
 
 ## Using
 You have two ways to use this library:
