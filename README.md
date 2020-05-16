@@ -1,5 +1,5 @@
 # PrettyInput
-This package is needed to simplify input from streams (files, stdin, everything that supports stream.read(1)).
+This package is needed to simplify input from streams.
 ## Why?
 Sometimes you need to input some numbers from file or command line.
 It will be okay if the numbers were written one in a row.
@@ -35,8 +35,7 @@ You have to ways to use this library:
 
 There are 3 functions now:
 - read_int() - read int
-- read_float() - read float
-- read_expfloat() - same as read_float() but may input exponetial floats (3e5 for example)
+- read_float(allow_exp=True) - read float (if allow exp is True you can read numbers in exponential form).
 - read_str() - read str till stop char
 
 Functions has same argument: stream (default stream=stdin) a stream you want to use to input
@@ -58,6 +57,5 @@ stream = StreamIO.from_file(filepath, mode) # from file
 #then you can use same functions
 stream.read_int()
 stream.read_float()
-stream.read_float(allow_exp=True) instead of read_expfloat
 stream.close()
 ```
